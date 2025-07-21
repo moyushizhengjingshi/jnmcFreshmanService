@@ -1,0 +1,50 @@
+css的作用就是让网页变得更美观
+<style>
+  h1{
+      color:blue;
+      font-size:30px;   像素
+  }
+</style>
+可以内联方式修改 ：在大于号之前添加
+如果需要修改的样式很多 那么就在header标签里面添加style就可以
+对于多个网页都需要样式的话
+独立创建一个css文件 .css 
+h1{
+      color:blue;
+      font-size:30px;   像素
+  }
+  在heade里面 <link rel="stylesheet" href="./  .css"> 引入这个文件
+
+  选择器
+  //对全局的样式设置 
+  这个一般用于初始化 优先级最低
+ <style>
+  *{
+      color:blue;
+      font-size:30px;   像素
+  }
+</style>
+ 2.
+ p{
+
+ }对所有的p元素修改样式
+
+3.
+在标签里面添加<h2 class="oneclass">你好</h2>     标签里面可以添加多个类选择器 在双引号里面空格隔开
+.oneclass{
+  width:800px;
+}
+4.
+
+id选择器：
+在标签里面添加<h2 id="ts">你好</h2>     
+#ts{
+  width:800px;
+}
+id名称不能重复 ，这个标签用了下一个标签就不能用了不能以数字开头
+5.合并选择器
+就是2的一种合并
+p，h3{
+
+ }对所有的p元素修改样式
+ 也适用于3

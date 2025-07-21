@@ -1,0 +1,51 @@
+<!DOCTYPE html>    消除浏览器差异
+<html lang="en">     网页的开始
+<head>
+  <meta charset="UTF-8">               这个是一个标签设置信息
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>记忆</title>      
+</head>
+<body>
+  我的第一个代码
+</body>
+</html>          网页的结束
+
+
+<h1>设置一级标题</h1>   一共有六级
+<p></p>这是一个段落标签
+<br>换行
+<hr  >加一个横杠  属性值在大于号前面
+<img src=""width=""height="" title>照片     路径  大小  悬停提示
+绝对路径：照片存储文件的全部地址
+<a href="">超文本链接</a>   herf表示要跳转的地址  里面可以是文字可以是照片
+词汇定义
+<em>  定义着重文字  斜体
+<b>   定义粗体文字
+<i>   定义斜体字
+<strong>  定义加粗预期
+<del>    定义删除字 
+<span>    元素没有特定的含义
+
+有序列表   可以在li里面嵌套列表
+<ol type="">                type后面可以设置展示方式
+  <li></li>
+   <li></li>
+</ol>
+无序列表用ul
+
+表单实现交互
+ 服务器地址       提供少量/大量数据
+<fom action="url" method="get|post"name="myform >
+    <input type="submit">输入框
+</from>
+//区分区域的的地方  为了增加每一个区域快的区分度
+<div id=""></div>
+     
+新格式
+<header></header>  头部
+<nav></nav> 导航
+<article>内容
+  <section></section>
+</article>
+<aside></aside>  侧边栏
+<footer><footer>底部
